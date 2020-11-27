@@ -48,7 +48,7 @@ See [Basic example](examples/basic/README.md) for further information.
 |------|-------------|------|---------|:--------:|
 | enabled | Variable indicating whether deployment is enabled | `bool` | `true` | no |
 | helm\_chart\_name | Helm chart name to be installed | `string` | `"descheduler-helm-chart"` | no |
-| helm\_chart\_version | Version of the Helm chart | `string` | `"2.11.2"` | no |
+| helm\_chart\_version | Version of the Helm chart | `string` | `"0.19.0"` | no |
 | helm\_release\_name | Helm release name | `string` | `"descheduler"` | no |
 | helm\_repo\_url | Helm repository | `string` | `"https://kubernetes-sigs.github.io/descheduler/"` | no |
 | k8s\_namespace | The K8s namespace in which the metrics-server service account has been created | `string` | `"kube-system"` | no |
